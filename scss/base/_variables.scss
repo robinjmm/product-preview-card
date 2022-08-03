@@ -1,0 +1,20 @@
+:root {
+    // Colors
+    --text-highlight: hsl(158, 36%, 37%);
+    --text-color: hsl(228, 12%, 48%);
+    --text-dark-color: hsl(212, 21%, 14%);
+    --text-light-color: hsl(0, 0%, 100%);
+
+    --body-bg-color: hsl(30, 38%, 92%);
+    --button-bg-color: hsl(158, 36%, 37%);
+    --card-bg-color: hsl(0, 0%, 100%);
+
+    // Fonts
+    --ff-primary: 'Montserrat', sans-serif;
+    --ff-secondary: 'Fraunces', serif;
+}
+
+@function rem($value) {
+    $remValue: calc(($value / 16px) * 1rem);
+    @return $remValue;
+}

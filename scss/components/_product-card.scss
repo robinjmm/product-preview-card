@@ -1,0 +1,49 @@
+@use "../base/variables" as *;
+
+.product-card {
+    background-color: var(--card-bg-color);
+    font-family: var(--ff-primary);
+    font-size: rem(14px);
+    color: var(--text-color);
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+
+    &__info {
+        padding: 25px;
+        font-weight: 500;
+    }
+
+    &__category {
+        font-size: rem(14px);
+        text-transform: capitalize;
+        letter-spacing: 0.5em;
+    }
+
+    &__heading {
+        font-family: var(--ff-secondary);
+        font-size: rem(30px);
+        color: var(--text-dark-color);
+        line-height: 1;
+        margin: 0.5em 0;
+    }
+
+    &__price {
+        margin: rem(18px) 0 rem(12px);
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    &__new-price {
+        font-family: var(--ff-secondary);
+        font-size: rem(30px);
+        color: var(--text-highlight);
+    }
+
+    &__old-price {
+        text-decoration: line-through;
+    }
+}

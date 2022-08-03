@@ -1,0 +1,14 @@
+@use "../base/variables" as *;
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 0.8em;
+    width: 100%;
+    padding: calc((20px / 14px) * 1em) 0;
+    background-color: var(--button-bg-color);
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    color: var(--text-light-color);
+    border-radius: 10px;
+}
