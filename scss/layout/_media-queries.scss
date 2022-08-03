@@ -1,0 +1,30 @@
+@use "../base/variables" as *;
+
+@media (min-width: 500px) {
+    .product-card {
+        display: flex;
+
+        &__hero {
+            width: 48%;
+            height: auto;
+            min-height: 425px;
+        }
+
+        &__info {
+            width: 52%;
+        }
+
+        &__heading {
+            margin: 0.7em 0;
+        }
+
+        &__price {
+            margin-bottom: rem(18px);
+        }
+    }
+
+    img,
+    picture {
+        height: 100%;
+    }
+}

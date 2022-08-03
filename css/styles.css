@@ -338,6 +338,7 @@ body {
   font-size: 0.875rem;
   text-transform: capitalize;
   letter-spacing: 0.5em;
+  font-weight: 500;
 }
 .product-card__heading {
   font-family: var(--ff-secondary);
@@ -372,6 +373,34 @@ body {
   font-weight: 500;
   color: var(--text-light-color);
   border-radius: 10px;
+  transition: background-color 0.2s linear;
+}
+.btn:hover {
+  background-color: hsl(158deg, 39%, 22%);
+}
+
+@media (min-width: 500px) {
+  .product-card {
+    display: flex;
+  }
+  .product-card__hero {
+    width: 48%;
+    height: auto;
+    min-height: 425px;
+  }
+  .product-card__info {
+    width: 52%;
+  }
+  .product-card__heading {
+    margin: 0.7em 0;
+  }
+  .product-card__price {
+    margin-bottom: 1.125rem;
+  }
+  img,
+picture {
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

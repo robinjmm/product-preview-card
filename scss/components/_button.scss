@@ -11,4 +11,9 @@
     font-weight: 500;
     color: var(--text-light-color);
     border-radius: 10px;
+    transition: background-color 0.2s linear;
+
+    &:hover {
+        background-color: hsl(158, 39%, 22%);
+    }
 }
