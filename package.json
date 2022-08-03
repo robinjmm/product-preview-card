@@ -1,0 +1,23 @@
+{
+  "name": "product-preview-card",
+  "version": "1.0.0",
+  "description": "A challenge to build a Product Preview Card component from Frontendmentor.io",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/styles.scss:css/styles.css",
+    "prod": "sass --style=compressed scss/styles.scss:css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinjmm/product-preview-card.git"
+  },
+  "author": "robinjmm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinjmm/product-preview-card/issues"
+  },
+  "homepage": "https://github.com/robinjmm/product-preview-card#readme",
+  "devDependencies": {
+    "sass": "^1.54.1"
+  }
+}
