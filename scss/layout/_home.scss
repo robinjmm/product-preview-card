@@ -6,6 +6,11 @@ body {
     padding: 5vh 0;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+main {
+    margin-bottom: rem(60px);
 }
