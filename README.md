@@ -2,7 +2,7 @@
 ![](./images/solution-screenshot.png)
 ## Links:
 - [Challenge Link](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
-- [Site Preview](https://robinjmm-product-preview.netlify.app/)
+- [Site Preview](https://robinjmm-product-preview.vercel.app/)
 
 ## About
 This is my solution for the the challenge of building a Product Preview Card component from [Frontendmentor.io](https://frontendmentor.io).
