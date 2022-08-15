@@ -19,6 +19,7 @@ The user should be able to:
 - CSS3
 - Flexbox
 - SASS
+- PostCSS
 
 ## Usage
 You can download the project files by clicking on the green **Code** button, then select **Download Zip**.
