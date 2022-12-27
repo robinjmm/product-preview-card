@@ -1,5 +1,5 @@
 # Product Preview Card Component
-![](assets/images/solution-screenshot.png)
+![](images/solution-screenshot.png)
 ## Links:
 - [Challenge Link](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 - [Site Preview](https://robinjmm-product-preview.vercel.app/)
@@ -17,33 +17,9 @@ The user should be able to:
 ## Built with
 - HTML5
 - CSS3
-- Flexbox
 - SASS
 - PostCSS
-
-## Usage
-You can download the project files by clicking on the green **Code** button, then select **Download Zip**.
-
-Once you finish extracting, open the terminal, move into the project directory, and type the following code:
-
-```
-npm install
-```
-
-This will install all the required dependencies.
-
-To compile Sass into CSS and watch for any future changes, type the following code in your terminal:
-
-
-```
-npm run sass
-```
-
-To compile Sass into a minified version of CSS, run:
-
-```
-npm run prod
-```
+- Vite
 
 ## Acknowledgement
 I'm very grateful to the people at [Frontendmentor.io](https://frontendmentor.io) for providing designs and challenges that help me improve my skills as a web developer.

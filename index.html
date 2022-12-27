@@ -7,14 +7,11 @@
     <meta name="description" content="A Product Preview Card component from a Frontendmentor.io Challenge">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
     <title>Product Preview Card Component</title>
-
-    <!-- Custom Styles-->
-    <link rel="stylesheet" href="css/styles.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +19,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
         rel="stylesheet">
+
+	<!-- Modern Normalize-->
+	<link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+
+	<!-- Custom Styles-->
+    <link rel="stylesheet" href="scss/styles.scss">
 </head>
 
 <body>
@@ -29,8 +32,8 @@
         <div class="product-card">
             <div class="product-card__hero">
                 <picture>
-                    <source srcset="assets/images/image-product-desktop.jpg" media="(min-width: 500px)">
-                    <img class="product-card__image" src="assets/images/image-product-mobile.jpg" alt="Chanel Perfume">
+                    <source srcset="images/image-product-desktop.jpg" media="(min-width: 500px)">
+                    <img class="product-card__image" src="images/image-product-mobile.jpg" alt="Chanel Perfume">
                 </picture>
             </div>
 
@@ -50,17 +53,12 @@
                 </div>
 
                 <button class="btn">
-                    <img src="assets/images/icon-cart.svg" alt="Shopping Cart Icon">
+                    <img src="images/icon-cart.svg" alt="Shopping Cart Icon">
                     <span>Add to Cart</span>
                 </button>
             </div>
         </div>
     </main>
-
-    <footer>
-        <a href="https://github.com/robinjmm/product-preview-card" target="_blank" title="GitHub Repo Link"><i
-                class="fa-brands fa-github"></i></a>
-    </footer>
 </body>
 
 </html>

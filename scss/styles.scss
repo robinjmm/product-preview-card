@@ -1,7 +1,5 @@
 @use "base/variables";
 
-@use "base/reset";
-
 @use "base/defaults";
 
 @use "layout/home";
@@ -11,9 +9,5 @@
 @use "components/button";
 
 @use "components/link-icons";
-
-@use "fontawesome/fontawesome";
-
-@use "fontawesome/brands";
 
 @use "layout/media-queries";
