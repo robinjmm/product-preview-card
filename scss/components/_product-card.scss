@@ -3,44 +3,43 @@
 .product-card {
     background-color: var(--card-bg-color);
     font-family: var(--ff-primary);
-    font-size: rem(14px);
+    font-size: toRem(14px);
     color: var(--text-color);
-    width: 90%;
-    max-width: 600px;
+    width: toRem(342px);
     margin: 0 auto;
     border-radius: 15px;
     overflow: hidden;
 
     &__info {
-        padding: 25px;
-        font-weight: 500;
+        padding: toRem(25px);
+        font-weight: var(--fw-normal);
     }
 
     &__category {
-        font-size: rem(14px);
+        font-size: toRem(14px);
         text-transform: capitalize;
         letter-spacing: 0.5em;
-        font-weight: 500;
+        font-weight: var(--fw-normal);
     }
 
     &__heading {
         font-family: var(--ff-secondary);
-        font-size: rem(30px);
+        font-size: toRem(30px);
         color: var(--text-dark-color);
         line-height: 1;
-        margin: 0.5em 0;
+        margin: toRem(15px) 0;
     }
 
     &__price {
-        margin: rem(18px) 0 rem(12px);
+        margin: toRem(18px) 0 toRem(12px);
         display: flex;
         align-items: center;
-        gap: 16px;
+        gap: toRem(16px);
     }
 
     &__new-price {
         font-family: var(--ff-secondary);
-        font-size: rem(30px);
+        font-size: toRem(30px);
         color: var(--text-highlight);
     }
 

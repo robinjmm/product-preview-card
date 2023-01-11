@@ -3,17 +3,15 @@
 .btn {
     display: flex;
     justify-content: center;
-    gap: 0.8em;
+    gap: toRem(10px);
     width: 100%;
-    padding: calc((20px / 14px) * 1em) 0;
+	border: none;
+	cursor: pointer;
+    padding: toRem(15px) 0;
     background-color: var(--button-bg-color);
     font-family: var(--ff-primary);
-    font-weight: 500;
+    font-weight: var(--fw-normal);
     color: var(--text-light-color);
     border-radius: 10px;
     transition: background-color 0.2s linear;
-
-    &:hover {
-        background-color: hsl(158, 39%, 22%);
-    }
 }

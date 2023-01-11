@@ -1,8 +1,15 @@
 @use "../base/variables" as *;
 
-@media (min-width: 500px) {
+@media (max-width: 20rem) {
+	.product-card {
+		width: toRem(300px);
+	}
+}
+
+@media (min-width: 48rem) {
     .product-card {
-        display: flex;
+        width: toRem(600px);
+		display: flex;
 
         &__hero {
             width: 48%;
@@ -19,7 +26,7 @@
         }
 
         &__price {
-            margin-bottom: rem(18px);
+            margin-bottom: toRem(18px);
         }
     }
 
@@ -27,4 +34,8 @@
     picture {
         height: 100%;
     }
+
+	.btn:hover {
+		background-color: var(--bg-button-hover);
+	}
 }

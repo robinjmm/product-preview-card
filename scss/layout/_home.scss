@@ -2,7 +2,7 @@
 
 body {
     background: var(--body-bg-color);
-    padding: 5vh 0;
+    padding: toRem(80px) 0;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -11,5 +11,5 @@ body {
 }
 
 main {
-    margin-bottom: rem(60px);
+    margin-bottom: toRem(60px);
 }
